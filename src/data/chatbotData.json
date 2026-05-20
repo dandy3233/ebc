@@ -1,0 +1,164 @@
+{
+  "initialMessage": {
+    "text": {
+      "en": "Hello! I'm your specialized AI Agronomist for Ethiopian agriculture. How can I help you optimize your harvest today? We have updated soil data for the Oromia and Amhara regions ready for analysis.",
+      "am": "ሰላም! እኔ ለኢትዮጵያ ግብርና የተለየሁ የ AI አግሮኖሚስት ነኝ። ዛሬ ምርትዎን ለማሻሻል እንዴት ልረዳዎ እችላለሁ? ለኦሮሚያ እና አማራ ክልሎች የተሻሻሉ የአፈር መረጃዎችን ለትንተና አዘጋጅተናል።"
+    },
+    "chips": [
+      {
+        "label": {
+          "en": "How to treat coffee leaf rust?",
+          "am": "የቡና ቅጠል ዝገትን እንዴት ማከም ይቻላል?"
+        },
+        "query": "coffee leaf rust"
+      },
+      {
+        "label": {
+          "en": "Best time to plant maize in Oromia?",
+          "am": "በኦሮሚያ በቆሎ ለመትከል የተሻለው ጊዜ መቼ ነው?"
+        },
+        "query": "maize oromia"
+      },
+      {
+        "label": {
+          "en": "Soil pH for Teff",
+          "am": "ለጤፍ ተስማሚ የአፈር ፒኤች (pH)"
+        },
+        "query": "teff ph"
+      },
+      {
+        "label": {
+          "en": "Advanced Yield Prediction",
+          "am": "የላቀ የምርት ትንበያ"
+        },
+        "query": "yield prediction"
+      }
+    ]
+  },
+  "responses": {
+    "coffee": {
+      "text": {
+        "en": "Based on your interest in Coffee Leaf Rust (Hemileia vastatrix), here is a Cloud-Precision action plan:",
+        "am": "ስለ ቡና ቅጠል ዝገት (Hemileia vastatrix) ላነሱት ጥያቄ፣ የደመና-ትክክለኛነት የድርጊት መርሃ ግብር ይህንን ይመስላል፡"
+      },
+      "action": {
+        "immediate": {
+          "en": "Prune infected branches to improve airflow and reduce humidity within the canopy.",
+          "am": "የአየር ዝውውርን ለማሻሻል እና በቅጠሉ ስር ያለውን እርጥበት ለመቀነስ የተጎዱትን ቅርንጫፎች ይቁረጡ።"
+        },
+        "treatment": {
+          "en": "Apply copper-based fungicides. For organic certification, use neem oil extracts.",
+          "am": "በመዳብ ላይ የተመሰረቱ የፈንገስ ማጥፊያዎችን ይተግብሩ። ለኦርጋኒክ ማረጋገጫ የኒም ዘይት ማምረቻዎችን ይጠቀሙ።"
+        },
+        "ancestral": {
+          "en": "Ensure your shade trees are managed correctly. Excessive shade traps moisture.",
+          "am": "የጥላ ዛፎችዎ በትክክል መያዛቸውን ያረጋግጡ። ከመጠን በላይ ጥላ እርጥበትን ይይዛል።"
+        }
+      }
+    },
+    "maize": {
+      "text": {
+        "en": "Maize planting in Oromia depends closely on the onset of the main rainy season (Kiremt). Optimal periods include mid-April to late-May. Applying urea at 3-4 weeks post-emergence maximizes growth metrics.",
+        "am": "በኦሮሚያ የበቆሎ ተከላ ከዋናው የዝናብ ወቅት (ክረምት) መጀመሪያ ጋር በቅርበት የተሳሰረ ነው። ተስማሚ ጊዜያት ከሚያዝያ አጋማሽ እስከ ግንቦት መጨረሻ ያካትታሉ። ከበቀለ ከ3-4 ሳምንታት በኋላ ዩሪያን መተግበር የእድገት መለኪያዎችን ከፍ ያደርገዋል።"
+      }
+    },
+    "teff": {
+      "text": {
+        "en": "Teff grows best in sandy loam to clay loam soils with a pH range of 5.5 to 6.5. If your soil pH is below 5.0, apply agricultural lime (calcium carbonate) to neutralize soil acidity before broadcasting seeds.",
+        "am": "ጤፍ በቆላማና ደጋማ አካባቢዎች የአፈር ፒኤች (pH) ከ 5.5 እስከ 6.5 በሆነ የአፈር አይነት ላይ በደንብ ያድጋል። የአፈርዎ ፒኤች ከ 5.0 በታች ከሆነ ዘር ከመዝራትዎ በፊት የአፈርን አሲዳማነት ለማስተካከል የግብርና ኖራን ይተግብሩ።"
+      }
+    },
+    "yield": {
+      "text": {
+        "en": "Based on satellite vegetation indices (NDVI) and current moisture levels in your region, we project a 15% increase in your seasonal yield compared to last year's average. Would you like a detailed zone-by-zone breakdown?",
+        "am": "በሳተላይት እፅዋት አመልካቾች (NDVI) እና በክልልዎ ባለው የአሁኑ የእርጥበት መጠን ላይ በመመርኮዝ ካለፈው ዓመት አማካይ ጋር ሲነፃፀር በወቅታዊ ምርትዎ ላይ የ 15% ጭማሪ እንደሚኖር እንተነብያለን። ዝርዝር የዞን በዞን ትንታኔ ይፈልጋሉ?"
+      }
+    },
+    "default": {
+      "text": {
+        "en": "Thank you for consulting AgriIntel. Your request is being analyzed against historical regional telemetry. Could you please specify which zone or crop type you are focusing on?",
+        "am": "አግሪ ኢንቴልን ስላማከሩ እናመሰግናለን። ጥያቄዎ ከታሪካዊ የክልል መረጃዎች አንፃር እየተተነተነ ነው። እባክዎን የትኛውን ዞን ወይም የሰብል ዓይነት ላይ ማተኮር እንደፈለጉ ሊገልጹልኝ ይችላሉ?"
+      }
+    }
+  },
+  "sidebar": {
+    "title": {
+      "en": "Recent Consults",
+      "am": "የቅርብ ምክሮች"
+    },
+    "history": [
+      { "title": "Teff Rust Management", "desc": "2 hours ago • Debre Zeit" },
+      { "title": "Irrigation Timing", "desc": "Yesterday • Awash Valley" },
+      { "title": "Soil pH Levels", "desc": "Oct 12 • Jimma Highlands" },
+      { "title": "Organic Fertilizers", "desc": "Oct 10 • Arsi Zone" },
+      { "title": "Coffee Pruning Tech", "desc": "Oct 05 • Sidama" }
+    ],
+    "pro": {
+      "title": {
+        "en": "Upgrade to Pro",
+        "am": "ወደ ፕሮ ያሳድጉ"
+      },
+      "desc": {
+        "en": "Unlock satellite imagery and real-time sensor integration.",
+        "am": "የሳተላይት ምስሎችን እና ቀጥተኛ የሴንሰር መረጃዎችን ያግኙ።"
+      },
+      "button": {
+        "en": "Get Started",
+        "am": "ይጀምሩ"
+      }
+    }
+  },
+  "chatArea": {
+    "title": "AgriIntel AI Assistant",
+    "status": "Online • Expert Agronomist",
+    "typing": {
+      "en": "AgriIntel is thinking...",
+      "am": "አግሪ ኢንቴል እያሰበ ነው..."
+    },
+    "inputPlaceholder": {
+      "en": "Ask about crop health, weather, or soil...",
+      "am": "ስለ ሰብል ጤና፣ የአየር ሁኔታ ወይም አፈር ይጠይቁ..."
+    },
+    "disclaimer": "AgriIntel AI can make mistakes. Please verify critical agricultural decisions with your local extension officer.",
+    "actionLabels": {
+      "immediate": "Immediate Action",
+      "treatment": "Treatment"
+    }
+  },
+  "proModal": {
+    "title": {
+      "en": "AgriIntel Pro",
+      "am": "አግሪ ኢንቴል ፕሮ"
+    },
+    "subtitle": {
+      "en": "Unlock advanced satellite analytics and real-time IoT integration.",
+      "am": "የላቀ የሳተላይት ትንተናን እና የቀጥታ IoT ውህደትን ያግኙ።"
+    },
+    "features": [
+      {
+        "en": "Real-time drone imagery analysis",
+        "am": "የቀጥታ ድሮን ምስል ትንተና"
+      },
+      {
+        "en": "Predictive weather modeling (30 days)",
+        "am": "የ30 ቀን የአየር ሁኔታ ትንበያ"
+      },
+      {
+        "en": "Direct API access for smart tractors",
+        "am": "ለስማርት ትራክተሮች ቀጥተኛ API ውህደት"
+      }
+    ],
+    "pricing": {
+      "en": "1,500 Birr / month",
+      "am": "በወር 1,500 ብር"
+    },
+    "button": {
+      "en": "Subscribe Now",
+      "am": "አሁን ይመዝገቡ"
+    },
+    "cancel": {
+      "en": "Maybe Later",
+      "am": "ምናልባት በኋላ"
+    }
+  }
+}
